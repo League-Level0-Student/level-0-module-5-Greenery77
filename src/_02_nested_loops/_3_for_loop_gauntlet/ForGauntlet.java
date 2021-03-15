@@ -3,22 +3,19 @@ package _02_nested_loops._3_for_loop_gauntlet;
 public class ForGauntlet {
 
 	public static void main(String[] args) {
-		
-		
+
 //	for (int i = 0; i < 101; i++) {
 //		
 //		System.out.println(i);
 //		
 //	}
-	
-	
+
 //	for (int i = 100; i >= 0; i--) {
 //		
 //		System.out.println(i);
 //		
 //	}	
-		
-		
+
 //	for (int i = 0; i < 100; i++) {
 //		
 //		if (i % 2 == 0) {
@@ -28,8 +25,7 @@ public class ForGauntlet {
 //		}
 //		
 //	}	
-		
-		
+
 //	for (int i = 0; i < 99; i++) {
 //		
 //		if (i % 2 == 1) {
@@ -39,8 +35,7 @@ public class ForGauntlet {
 //		}
 //		
 //	}	
-		
-		
+
 //	for (int i = 1; i < 501; i++) {
 //		
 //		if (i % 2 == 0) {
@@ -56,8 +51,7 @@ public class ForGauntlet {
 //		}
 //		
 //	}
-		
-		
+
 //	for (int i = 7; i < 778; i++) {
 //		
 //		if (i % 7 == 0) {
@@ -67,8 +61,7 @@ public class ForGauntlet {
 //		}
 //		
 //	}
-		
-		
+
 //	int j = 0;
 //		
 //	for (int i = 2009; i < 2021; i++) {
@@ -79,8 +72,7 @@ public class ForGauntlet {
 //		
 //	}
 //		
-		
-		
+
 //	for (int i = 0; i < 3; i++) {
 //		
 //		for (int j = 0; j < 3; j++) {
@@ -90,8 +82,7 @@ public class ForGauntlet {
 //		}
 //		
 //	}
-		
-		
+
 //		int k = 0; 
 //	for (int i = 1; i < 4; i++) {
 //		
@@ -104,8 +95,7 @@ public class ForGauntlet {
 //		System.out.println();
 //		
 //	}	
-		
-		
+
 //	for (int i = 0; i < 7; i+=3) {
 //		
 //		for (int j = 1; j < 4; j++) {
@@ -117,8 +107,7 @@ public class ForGauntlet {
 //		System.out.println();
 //		
 //	}	
-	
-	
+
 //for (int i = 0; i < 91; i+=10) {
 //		
 //		for (int j = 1; j < 11; j++) {
@@ -130,15 +119,25 @@ public class ForGauntlet {
 //		System.out.println();
 //		
 //}
-		
-		
-		
-		
-		
-		
-		
-		
+//		
+
+//		for (int i = 0; i < 6; i+=1) {
+//			
+//			for (int j = 0; j < 1 + i; j++) {
+//	
+//				System.out.print("*" + " ");
+//				
+//			}
+//	
+//			System.out.println();	
+//		}
+
+//		for (int i = 0; i <= 100; i++) {
+//
+//			System.out.println(100 - i);
+//			
+//		}
+
 	}
-	
-	
+
 }
