@@ -17,6 +17,9 @@ public class HappyPet {
 		
 		// 7. REPEAT steps 3 - 6 enough times to make your pet happy!
 		
+			for (int i = 0; i < 20; i++) {
+			
+		
 			// 3. Use showOptionDialog to ask the user what they want to do to make their pet happy
 			//    (eg: cuddle, food, water, take a walk, groom, clean up poop).
 			//    Make sure to customize the title and question too.
@@ -32,9 +35,29 @@ public class HappyPet {
 				
 			}
 			
+			if (task == 1) {
+				
+				feedPet();
+				
+			}
+			
+			if (task == 2) {
+				
+				walkPet();
+				
+			}
 			// 6. If you determine the happiness level is large enough, tell the
 			//    user that he loves his pet and use break; to exit for loop.
-
+			
+			if (happinessLevel == 100) {
+			
+			JOptionPane.showMessageDialog(null, "Your pet loves you!");
+			
+			break;
+			
+			}
+			
+			}
 	}
 
 	// 4. Create methods to handle each of your user selections.
