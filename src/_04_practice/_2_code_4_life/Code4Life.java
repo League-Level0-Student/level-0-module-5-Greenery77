@@ -13,21 +13,47 @@ public class Code4Life {
 	 * If you cannot play sound on this computer, set canPlaySounds to false.
 	 * If you are not sure, ask your teacher 
 	 * *****************/
-	static boolean canPlaySounds = true;
+	static boolean canPlaySounds = false;
+	
+	
+	public static void main(String[] args) {
 	
 	
 	// 1. Ask the user how many hours they spent coding this week.
 
+	String codeHours = JOptionPane.showInputDialog("How many hours of coding did you do this week?");
+	
 	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
 	// write code instead.
+	
+	int codeHourInt = Integer.parseInt(codeHours);
+	
+	if (codeHourInt <= 2) {
+		
+		JOptionPane.showMessageDialog(null, "Stop watching YouTube and write some code.");
+		
+	}
 
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
 	// they're a Code Ninja
+	
+	else if (codeHourInt >= 3 && codeHourInt <= 5) {
+		
+		JOptionPane.showMessageDialog(null, "You're a coding ninja!");
+		
+	}
 
 	// 4. If it is more than 5, call the playBatmanTheme  method, then 
 	//    call the displayBatman method.
 
-
+	else if (codeHourInt > 5 ) {
+		
+		playBatmanTheme();
+		displayBatman();
+		
+	}
+	
+	}
 
 	
 	private static void playBatmanTheme() {
